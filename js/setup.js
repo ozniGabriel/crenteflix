@@ -28,3 +28,7 @@ function ativarMenuHamburguer(){
     }
 
 }
+
+function salvarFilme(){
+    alert('Filme adicionado a sua Lista!')
+}

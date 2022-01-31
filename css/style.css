@@ -115,7 +115,7 @@ header{
 .botoes{
   display: flex;
 }
-.botoes button{
+.botoes a{
   width: 30%;
   padding: 8px;
   margin-right: 5px;
@@ -131,9 +131,13 @@ header{
   gap: 6px;
 }
 
-.botoes button:hover{
+.botoes a:hover{
   color: var(--preto);
   background: var(--branco);
+}
+
+.alert{
+  display: none;
 }
 
 .filmes{
