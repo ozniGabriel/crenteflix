@@ -1,0 +1,67 @@
+@media screen and (max-width: 800px){
+  .botoes{
+    flex-direction: column;
+    gap: 7px;
+  }
+  .botoes button{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .rightElementsMenu{
+    display: none;
+  }
+  .leftElementsMenu{
+    flex-direction: column;
+    text-align: center;
+    background: var(--preto);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    margin: 0%;
+    left: 0%;
+    top: 0%;
+    padding: 50px;
+    gap: 40px;
+    display: none;
+  }
+  .leftElementsMenu a{
+    color: var(--amarelo);
+    font-size: 20px;
+  }
+  .menuHamburguer{
+    display: inline;
+    z-index: 2000;
+    position: absolute;
+    right: 10%;
+  }
+}
+
+@media screen and (max-width: 640px){
+  .filmeEmDestaque{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .filmes{
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 410px){
+  .informacoes h2{
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  .filmeEmDestaque{
+    height: 370px;
+  }
+  .titulo-de-categoria{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
