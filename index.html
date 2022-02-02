@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Crenteflix</title>
-
   <!--Meus estilos-->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
@@ -14,7 +13,6 @@
   <!-- Carrosel -->
   <link rel="stylesheet" href="carrosel/owl.carousel.min.css">
   <link rel="stylesheet" href="carrosel/owl.theme.default.min.css">
-
 </head>
 
 <body>
@@ -60,80 +58,83 @@
     </div>
   </header>
 
-
   <main>
-    <div class="filmeEmDestaque">
-      <div class="informacoes">
-        <h2>Quarto de Guerra</h5>
-          <p>O relacionamento de Elizabeth e Tony passa por uma crise. Um dia, Elizabeth conhece uma mulher que lhe
-            ensina o poder da oração e, a partir daí, ela aposta todas as fichas na sua fé e em suas rezas, a fim de
-            salvar seu casamento.</p>
-          <div class="botoes">
-            <a target="_blank"
-              href="https://www.primevideo.com/detail/Quarto-De-Guerra/0R1DI6DH0WK2A7M8INIGDFU11P?_encoding=UTF8&language=pt_BR"><svg
-                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-fill"
-                viewBox="0 0 16 16">
-                <path
-                  d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
-              </svg>Assistir</a>
-            <a href="#" id="add" onclick="salvarFilme()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
-                <path fill-rule="evenodd"
-                  d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z" />
-              </svg>Adicionar á Lista</a>
+    <section class="principal">
+      <div class="filmeEmDestaque">
+        <div class="informacoes">
+          <h2>Quarto de Guerra</h5>
+            <p>O relacionamento de Elizabeth e Tony passa por uma crise. Um dia, Elizabeth conhece uma mulher que lhe
+              ensina o poder da oração e, a partir daí, ela aposta todas as fichas na sua fé e em suas rezas, a fim de
+              salvar seu casamento.</p>
+            <div class="botoes">
+              <a target="_blank"
+                href="https://www.primevideo.com/detail/Quarto-De-Guerra/0R1DI6DH0WK2A7M8INIGDFU11P?_encoding=UTF8&language=pt_BR"><svg
+                  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-fill"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+                </svg>Assistir</a>
+              <a href="#" id="add" onclick="salvarFilme()"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                  height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                    d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z" />
+                </svg>Adicionar á Lista</a>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="novos-filmes">
+      <div class="carrosel-filmes" id="novos">
+        <h3 class="titulo-de-categoria">Adicionados Recentemente</h3>
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img class="filmes" src="img/01.png" alt="">
           </div>
-
+          <div class="item">
+            <img class="filmes" src="img/02.jpg" alt="">
+          </div>
+          <div class="item">
+            <img class="filmes" src="img/03.jpg" alt="">
+          </div>
+          <div class="item">
+            <img class="filmes" src="img/04.jpeg" alt="">
+          </div>
+          <div class="item">
+            <img class="filmes" src="img/05.jpg" alt="">
+          </div>
+        </div>
       </div>
+    </section>
 
-    </div>
+    <section class="filmes-populares">
+      <div class="carrosel-filmes" id="mais-vistos">
+        <h3 class="titulo-de-categoria">Mais Populares</h3>
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img class="filmes" src="img/06.jpg" alt="">
+          </div>
+          <div class="item">
+            <img class="filmes" src="img/07.jpg" alt="">
+          </div>
+          <div class="item">
+            <img class="filmes" src="img/08.jpg" alt="">
+          </div>
+          <div class="item">
+            <img class="filmes" src="img/09.jpg" alt="">
+          </div>
+          <div class="item">
+            <img class="filmes" src="img/10.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
-
-  <div class="carrosel-filmes" id="novos">
-    <h3 class="titulo-de-categoria">Adicionados Recentemente</h3>
-    <div class="owl-carousel owl-theme">
-      <div class="item">
-        <img class="filmes" src="img/01.png" alt="">
-      </div>
-      <div class="item">
-        <img class="filmes" src="img/02.jpg" alt="">
-      </div>
-      <div class="item">
-        <img class="filmes" src="img/03.jpg" alt="">
-      </div>
-      <div class="item">
-        <img class="filmes" src="img/04.jpeg" alt="">
-      </div>
-      <div class="item">
-        <img class="filmes" src="img/05.jpg" alt="">
-      </div>
-    </div>
-  </div>
-
-  <div class="carrosel-filmes" id="mais-vistos">
-    <h3 class="titulo-de-categoria">Mais Populares</h3>
-    <div class="owl-carousel owl-theme">
-      <div class="item">
-        <img class="filmes" src="img/06.jpg" alt="">
-      </div>
-      <div class="item">
-        <img class="filmes" src="img/07.jpg" alt="">
-      </div>
-      <div class="item">
-        <img class="filmes" src="img/08.jpg" alt="">
-      </div>
-      <div class="item">
-        <img class="filmes" src="img/09.jpg" alt="">
-      </div>
-      <div class="item">
-        <img class="filmes" src="img/10.jpg" alt="">
-      </div>
-    </div>
-  </div>
 
   <footer>
     <span>Desenvolvido por Ozni Gabriel</span>
     <div class="links">
-      <a href="http://" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/ozniGabriel" target="_blank" rel="noopener noreferrer">
         <svg id="github" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
           class="bi bi-github" viewBox="0 0 16 16">
           <path
@@ -141,7 +142,7 @@
         </svg>
       </a>
 
-      <a href="http://" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.linkedin.com/in/ozni-gabriel/" target="_blank" rel="noopener noreferrer">
         <svg id="linkedin" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
           class="bi bi-linkedin" viewBox="0 0 16 16">
           <path
@@ -158,7 +159,6 @@
       </a>
     </div>
   </footer>
-
 
   <!-- Carrosel -->
   <script src="js/jquery.min.js"></script>

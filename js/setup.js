@@ -1,14 +1,18 @@
 $('.owl-carousel').owlCarousel({
   loop:true,
   margin:6,
-  autoplay: true,
-  autoplayTimeout: 2000,
-  autoplayHoverPause: true,
-  smartSpeed: 3000,
-  slideTransition: 'ease-out',
+  dots: false,
+  nav: true,
+  navText: ["<img src='../img/arrow-left-circle.svg' alt='' />", "<img src='../img/arrow-right-circle.svg' alt='' />"],
+
   responsive:{
       0:{
-          items:1
+          items:1,
+          nav: false,
+          autoplay: true,
+          smartSpeed: 1000,
+          autoplayHoverPause: true
+
       },
       600:{
           items:3

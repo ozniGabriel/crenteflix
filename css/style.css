@@ -159,6 +159,7 @@ header{
   color: var(--amarelo);
 }
 
+
 footer{
   display: flex;
   flex-direction: column;
