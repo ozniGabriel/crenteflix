@@ -94,7 +94,7 @@ header{
 
 .filmeEmDestaque {
   height: 350px;
-  background: linear-gradient(rgba(0, 0, 0, .70), rgba(0, 0, 0, .70)10%), url('../img/filme01.png');
+  background: linear-gradient(rgba(0, 0, 0, .70), rgba(0, 0, 0, .70)10%), url('https://i1.wp.com/temalguemassistindo.com.br/wp-content/uploads/2020/09/Quarto-de-Guerra.png');
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -158,7 +158,18 @@ header{
   font-size: 15px;
   color: var(--amarelo);
 }
-
+.owl-nav{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.arrow{
+  background: rgb(11, 12, 4);
+  opacity: 0.2;
+}
+.arrow:hover{
+  opacity: 1;
+}
 
 footer{
   display: flex;

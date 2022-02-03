@@ -3,7 +3,7 @@ $('.owl-carousel').owlCarousel({
   margin:6,
   dots: false,
   nav: true,
-  navText: ["<img src='../img/arrow-left-circle.svg' alt='' />", "<img src='../img/arrow-right-circle.svg' alt='' />"],
+  navText: ["<img class='arrow' src='../img/arrow-left-circle.svg' alt=''/>", "<img class='arrow' src='../img/arrow-right-circle.svg' alt=''/>"],
 
   responsive:{
       0:{
