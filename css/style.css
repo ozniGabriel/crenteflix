@@ -90,6 +90,7 @@ header{
 .menuHamburguer{
   transform: rotate(90deg);
   display: none;
+  cursor: pointer;
 }
 
 .filmeEmDestaque {
