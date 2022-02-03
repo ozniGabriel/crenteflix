@@ -161,13 +161,18 @@ header{
 .owl-nav{
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 35px;
 }
-.arrow{
+
+.owl-nav span{
+  color: #e4d507;
+  opacity: 0.6;
+  font-size: 50px;
+  padding: 10px;
+  padding-bottom: 5px;
   background: rgb(11, 12, 4);
-  opacity: 0.2;
 }
-.arrow:hover{
+.owl-nav span:hover{
   opacity: 1;
 }
 
@@ -176,7 +181,7 @@ footer{
   flex-direction: column;
   text-align: center;
   gap: 10px;
-  padding-top: 40px;
+  padding-top: 50px;
   padding-bottom: 15px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular';
   background: var(--preto);
